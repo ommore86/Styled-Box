@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Box</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .styled-box {
+            background-color: #ffffff;
+            border: 3px solid #4a90e2;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+            width: 300px;
+            text-align: center;
+        }
+
+        .styled-box:hover {
+            background-color: #e6f0ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="styled-box">
+        <h2>Welcome!</h2>
+        <p>This is a stylish box with hover effect.</p>
+    </div>
+
+</body>
+</html>
